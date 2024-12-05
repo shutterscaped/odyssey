@@ -89,7 +89,7 @@ h3 {
 }
 
 h1 {
-	font-size: var(--font-size-xxl);
+	font-size: var(--font-size-xl.5);
 }
 
 h2 {
