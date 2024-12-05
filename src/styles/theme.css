@@ -38,7 +38,7 @@
 }
 
 [data-theme='default'] {
-	color-scheme: light;
+	color-scheme: dark;
 	/* Theme Colors */
 	--theme-primary: hsl(0, 0%, 0%);
 	--theme-primary-hover: hsl(0, 0%, 20%);
