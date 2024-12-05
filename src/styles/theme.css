@@ -2,9 +2,9 @@
 	/* Theme Colors */
 	--theme-primary: hsl(0, 0%, 0%);
 	--theme-primary-hover: hsl(0, 0%, 20%);
-	--theme-on-primary: #332820;
+	--theme-on-primary: #d0c6bd;
 
-	--theme-bg: #fff;
+	--theme-bg: #0d2b1d;
 	--theme-on-bg: #000;
 
 	--theme-surface-1: #344e41;
