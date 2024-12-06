@@ -12,8 +12,8 @@ const selectOptions = [
 <form name="Contact Form" method="POST" action="/contact-thank-you">
   <FormInput type="text" label="Name" name="Name" placeholder="John Doe" />
   <FormInput type="email" label="Email" name="Email" placeholder="hello@example.com" />
-  <FormSelect label="How Did You Hear About Us?" options={selectOptions} />
-  <FormTextarea label="Message" name="Message" placeholder="Your message here..." />
+  <FormInput type="subject" label="Subject" name="Subject placeholder="Barbers, Café, Enquiry" />
+  <FormTextarea label="Message" name="Message" placeholder="I would like photos of my café for me to use for social media." />
   <Button>Submit</Button>
 </form>
 
