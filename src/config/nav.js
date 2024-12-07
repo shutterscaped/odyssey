@@ -19,19 +19,12 @@ export const nav = [
 ];
 
 <style>
-class nav-bar:
 		width: fit-content;
                 height: -10;
 		margin: ;
                 position: absolute;
                 top: px
                 left: 0;
-		font-family: var(--theme-font-family-serif);
-    font-size: var(--font-size-md);
 		color: inherit;
-	}
-	.odyssey-logo:hover {
-		text-decoration: underline;
-		cursor: pointer;
-	}
+	
 </style>
