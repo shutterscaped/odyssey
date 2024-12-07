@@ -55,3 +55,4 @@ export const footerLists = [
 				slug: '/company/contact',
 			},
 		],
+},
