@@ -1,4 +1,5 @@
-class="nav-bar" export const nav = [
+<p class="nav-bar" </p>
+export const nav = [
 	{
 		
 		title: 'Home',
