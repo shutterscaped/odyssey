@@ -16,10 +16,11 @@ export const nav = [
 		slug: '/company/contact',
 	},
 ];
-
+<style>
 width: fit-content;
                 height: ;
 		margin: ;
                 position: absolute;
                 top: -10px;
                 left: 10px;
+</style>
