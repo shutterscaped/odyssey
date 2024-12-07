@@ -8,13 +8,20 @@ const selectOptions = [
 ]
 
 ---
-
-<form name="Contact Form" method="POST" action="/contact-thank-you">
-  <FormInput type="text" label="Name" name="Name" placeholder="" />
-  <FormInput type="email" label="Email" name="Email" placeholder="hello@example.com" />
-  <FormInput type="text" label="Subject" name="Subject" placeholder="Barbers, Café, Enquiry" />
-  <FormTextarea label="Message" name="Message" placeholder="I would like photos of my café for me to use for social media." />
-  <Button>Submit</Button>
+<form
+  action="https://formspree.io/f/xqakokbz"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
 </form>
 
 <style>
