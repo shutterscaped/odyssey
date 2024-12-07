@@ -11,11 +11,12 @@ const selectOptions = [
 <form
   action="https://formspree.io/f/xqakokbz"
   method="POST"
- 
-  <FormInput type="text" label="Name" name="Name" placeholder="John Doe" />
+
+ <form name="Contact Form" method="POST" action="/contact-thank-you">
+  <FormInput type="text" label="Name" name="Name" />
   <FormInput type="email" label="Email" name="Email" placeholder="hello@example.com" />
-  <FormSelect label="How Did You Hear About Us?" options={selectOptions} />
-  <FormTextarea label="Message" name="Message" placeholder="Your message here..." />
+  <FormInput type="text" label="Subject" name="Type of photography" placeholder="restaurant, café, barbers" />
+  <FormTextarea type="text" label="More info" name="Tell me more" placeholder="I would like a set of photos to use for my website and social media" />
   <Button>Submit</Button>
 </form>
 
