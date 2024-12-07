@@ -1,14 +1,7 @@
 export const nav = [
 	{
-		
 		title: 'Home',
 		slug: '/',
-		width: fit-content;
-                height: -10;
-		margin: ;
-                position: absolute;
-                top: px
-                left: 0;
 	},
 	{
 		title: 'My Work',
@@ -23,14 +16,3 @@ export const nav = [
 		slug: '/company/contact',
 	},
 ];
-
-<style>
-		width: fit-content;
-                height: -10;
-		margin: ;
-                position: absolute;
-                top: px
-                left: 0;
-		color: inherit;
-	
-</style>
