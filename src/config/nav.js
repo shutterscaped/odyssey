@@ -22,11 +22,11 @@ export const nav = [
 <style>
                .nav-bar {
 		width: fit-content;
-                height: ;
-		margin: ;
+                height: 
+		margin: 
                 position: absolute;
-                top: ;
-                left: ;
+                top: 
+                left: 
 		color: inherit;
 	}
 </style>
