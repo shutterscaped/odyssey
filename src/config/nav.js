@@ -1,5 +1,6 @@
-export const nav = [
+class="nav-bar" export const nav = [
 	{
+		
 		title: 'Home',
 		slug: '/',
 	},
@@ -18,7 +19,7 @@ export const nav = [
 ];
 
 <style>
-               .nav {
+               .nav-bar {
 		width: fit-content;
                 height: ;
 		margin: ;
