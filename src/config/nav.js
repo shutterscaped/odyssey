@@ -1,4 +1,4 @@
-export const nav = [
+export const nav-bar = [
 	{
 		
 		title: 'Home',
@@ -18,14 +18,10 @@ export const nav = [
 	},
 ];
 
-
-<p class="nav-bar" >Home< />
-
 <style>
-
-	       .nav-bar {
+class nav-bar:
 		width: fit-content;
-                height: ;
+                height: -10;
 		margin: ;
                 position: absolute;
                 top: px
